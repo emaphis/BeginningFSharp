@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IdentifiersAndLetBindings.fs" />
+    <Compile Include="UseBindings.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 </Project>
