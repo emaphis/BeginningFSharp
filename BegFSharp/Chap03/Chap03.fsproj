@@ -6,6 +6,9 @@
   <ItemGroup>
     <Compile Include="IdentifiersAndLetBindings.fs" />
     <Compile Include="UseBindings.fs" />
+    <Compile Include="Recursion.fs" />
+    <Compile Include="Operators.fs" />
+    <Compile Include="FunctionApplication.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 </Project>

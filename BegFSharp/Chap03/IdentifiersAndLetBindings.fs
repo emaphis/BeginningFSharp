@@ -1,3 +1,5 @@
+// Identifiers and 'let' bindings  pg 21
+
 module IdentifiersAndLetBindings
 
 // a literal value
