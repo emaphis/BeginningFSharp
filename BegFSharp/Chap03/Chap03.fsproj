@@ -9,6 +9,9 @@
     <Compile Include="Recursion.fs" />
     <Compile Include="Operators.fs" />
     <Compile Include="FunctionApplication.fs" />
+    <Compile Include="PartialApplication.fs" />
+    <Compile Include="PatternMatching.fs" />
+    <Compile Include="ControlFlow.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 </Project>
