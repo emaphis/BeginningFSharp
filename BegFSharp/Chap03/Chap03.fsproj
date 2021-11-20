@@ -12,6 +12,9 @@
     <Compile Include="PartialApplication.fs" />
     <Compile Include="PatternMatching.fs" />
     <Compile Include="ControlFlow.fs" />
+    <Compile Include="Lists.fs" />
+    <Compile Include="PatternMatchingLists.fs" />
+    <Compile Include="ListComprehensions.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 </Project>
