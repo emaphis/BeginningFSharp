@@ -15,6 +15,9 @@
     <Compile Include="Lists.fs" />
     <Compile Include="PatternMatchingLists.fs" />
     <Compile Include="ListComprehensions.fs" />
+    <Compile Include="TypesAndTypeInference.fs" />
+    <Compile Include="TupleAndRecordTypes.fs" />
+    <Compile Include="DiscriminatedUnions.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 </Project>
