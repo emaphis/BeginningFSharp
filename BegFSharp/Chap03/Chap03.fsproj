@@ -18,6 +18,11 @@
     <Compile Include="TypesAndTypeInference.fs" />
     <Compile Include="TupleAndRecordTypes.fs" />
     <Compile Include="DiscriminatedUnions.fs" />
+    <Compile Include="RecursiveTypeDefinitions.fs" />
+    <Compile Include="ActivePatterns.fs" />
+    <Compile Include="UnitsOfMeasure.fs" />
+    <Compile Include="Exceptions.fs" />
+    <Compile Include="LazyEvaluation.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 </Project>
