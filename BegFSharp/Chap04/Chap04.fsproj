@@ -9,6 +9,7 @@
     <Compile Include="TheUnitType.fs" />
     <Compile Include="MutableValues.fs" />
     <Compile Include="Arrays.fs" />
+    <Compile Include="ControlFlow.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
