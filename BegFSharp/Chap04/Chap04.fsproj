@@ -11,6 +11,10 @@
     <Compile Include="Arrays.fs" />
     <Compile Include="ControlFlow.fs" />
     <Compile Include="DotNetStaticMethodsAndProperties.fs" />
+    <Compile Include="DotNetObjectsAndInstanceMembers.fs" />
+    <Compile Include="DotNetIndexers.fs" />
+    <Compile Include="DotNetEvents.fs" />
+    <Compile Include="HandlersDemo.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
