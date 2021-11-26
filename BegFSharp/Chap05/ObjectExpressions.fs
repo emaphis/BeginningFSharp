@@ -31,6 +31,3 @@ printfn "%A" winners
 Array.Sort(winners, comparer)
 // print the winners again
 printfn "%A" winners
-
-
-

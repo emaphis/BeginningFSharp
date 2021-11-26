@@ -1,9 +1,8 @@
 // Object Expressions 2 - pg 101
 
-module ObjectExpressions2
+module ObjectExpressionWithInterface
 
 open System
-open System.Drawing
 open System.Windows.Forms
 
 // create a new instance of a number control

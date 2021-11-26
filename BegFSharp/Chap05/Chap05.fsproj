@@ -13,7 +13,8 @@
     <Compile Include="RecordsAsObjectsWithDrawing.fs" />
     <Compile Include="FSharpTypesWithMembers.fs" />
     <Compile Include="ObjectExpressions.fs" />
-    <Compile Include="ObjectExpressions2.fs" />
+    <Compile Include="ObjectExpressionWithInterface.fs" />
+    <Compile Include="ObjectExpressionWithInterfaceAndOverride.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
