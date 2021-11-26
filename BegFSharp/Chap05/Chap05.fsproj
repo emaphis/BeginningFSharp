@@ -11,6 +11,9 @@
     <Compile Include="Form1.fs" />
     <Compile Include="RecordsAsObjects.fs" />
     <Compile Include="RecordsAsObjectsWithDrawing.fs" />
+    <Compile Include="FSharpTypesWithMembers.fs" />
+    <Compile Include="ObjectExpressions.fs" />
+    <Compile Include="ObjectExpressions2.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

@@ -47,7 +47,7 @@ let shapes =
       movingCircle (new Point (40,40)) 20; ]
 
 // create the form to show the items
-let mainForm =
+let mainForm1 =
     let form = new Form()
     let rand = new Random()
     // add an event handler to draw the shapes
