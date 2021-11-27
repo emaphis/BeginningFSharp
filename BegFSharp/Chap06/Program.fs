@@ -1,6 +1,7 @@
 ﻿// Main program
 
 open SomeOtherModule
+open ModuleTwo
 
 // signature files
 open SignatureFiles
@@ -13,4 +14,5 @@ let main args =
     printfn "Hello from F#"
     printfn "%s" (testFun())
     printfn "%s" (useSignature())
+    printfn "%s" (testModuleTwo())
     0

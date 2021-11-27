@@ -16,6 +16,9 @@
     <Compile Include="Modules4.fs" />
     <Compile Include="SignatureFiles.fsi" />
     <Compile Include="SignatureFiles.fs" />
+    <Compile Include="PrivateAndInternal.fs" />
+    <Compile Include="ModuleScope1.fs" />
+    <Compile Include="ModuleScope2.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
