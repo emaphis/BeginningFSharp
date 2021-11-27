@@ -11,6 +11,7 @@ let useSignature() =
 
 [<EntryPoint>]
 let main args =
+    do ModuleExecutionTwo.funct()
     printfn "Hello from F#"
     printfn "%s" (testFun())
     printfn "%s" (useSignature())

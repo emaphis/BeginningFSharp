@@ -19,6 +19,8 @@
     <Compile Include="PrivateAndInternal.fs" />
     <Compile Include="ModuleScope1.fs" />
     <Compile Include="ModuleScope2.fs" />
+    <Compile Include="ModuleExecution1.fs" />
+    <Compile Include="ModuleExecution2.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
