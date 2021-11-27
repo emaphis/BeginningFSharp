@@ -14,6 +14,8 @@
     <Compile Include="Namespaces4.fs" />
     <Compile Include="Modules3.fs" />
     <Compile Include="Modules4.fs" />
+    <Compile Include="SignatureFiles.fsi" />
+    <Compile Include="SignatureFiles.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
