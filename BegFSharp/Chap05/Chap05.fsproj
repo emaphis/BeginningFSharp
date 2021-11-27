@@ -25,6 +25,12 @@
     <Compile Include="PropertiesAndIndexers.fs" />
     <Compile Include="Autoproperties.fs" />
     <Compile Include="OverridingNonFSharpMethods.fs" />
+    <Compile Include="AbstractClasses.fs" />
+    <Compile Include="StaticMethods.fs" />
+    <Compile Include="Casting.fs" />
+    <Compile Include="TypeTests.fs" />
+    <Compile Include="Delegates.fs" />
+    <Compile  Include="StructsAndEnums.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
