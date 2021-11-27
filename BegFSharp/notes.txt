@@ -9,6 +9,7 @@
 <Compile Include="AdditionalConstructors.fs" />
 <Compile Include="Interfaces.fs" />
 <Compile Include="Inheritance.fs" />
+<Compile Include="MethodsAndInheritance.fs" />
 <Compile Include="AccessingBaseClassMembers.fs" />
 <Compile Include="PropertiesAndIndexers.fs" />
 <Compile Include="Autoproperties.fs" />
