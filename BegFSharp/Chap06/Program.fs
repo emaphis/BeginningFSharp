@@ -5,5 +5,5 @@ open SomeOtherModule
 [<EntryPoint>]
 let main args =
     printfn "Hello from F#"
-    testFun()
+    printfn "%s" (testFun())
     0

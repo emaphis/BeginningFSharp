@@ -9,4 +9,4 @@ let z = ModuleDemo.SecondModule.ThirdModule.n
 
 // test function
 let testFun() =
-    printfn "%i %i %i" x y z
+    sprintf "%i %i %i" x y z
