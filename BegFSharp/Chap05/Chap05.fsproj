@@ -22,6 +22,9 @@
     <Compile Include="Inheritance.fs" />
     <Compile Include="MethodsAndInheritance.fs" />
     <Compile Include="AccessingBaseClassMembers.fs" />
+    <Compile Include="PropertiesAndIndexers.fs" />
+    <Compile Include="Autoproperties.fs" />
+    <Compile Include="OverridingNonFSharpMethods.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
