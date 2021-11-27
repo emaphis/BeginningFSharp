@@ -54,7 +54,3 @@ let mainForm3 =
     let temp = new Form() in
     temp.Controls.AddRange(numbers)
     temp
-
-
-
-
