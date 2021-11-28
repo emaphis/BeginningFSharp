@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ArithmeticOperators.fs" />
+    <Compile Include="FloatingPointFunctions.fs.fs" />
+    <Compile Include="TupleAndConversionFunctions.fs" />
+    <Compile Include="BitwiseOrAndAndOperators.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
