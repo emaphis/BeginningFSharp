@@ -10,6 +10,10 @@
     <Compile Include="FloatingPointFunctions.fs.fs" />
     <Compile Include="TupleAndConversionFunctions.fs" />
     <Compile Include="BitwiseOrAndAndOperators.fs" />
+    <Compile Include="Reflection.fs" />
+    <Compile Include="CollectionsSeqModule.fs" />
+    <Compile Include="PrintfModule.fs" />
+    <Compile Include="Events.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
