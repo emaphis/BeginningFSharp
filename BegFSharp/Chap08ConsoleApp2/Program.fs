@@ -1,10 +1,11 @@
 ﻿// Main App
 
 open System
-
+open SystemIOSequences
 
 [<EntryPoint>]
 let main args =
-    printfn "Hello from F#"
+    wordCount()
+    printfn "Done !!"
     Console.ReadKey(false) |> ignore
     0
