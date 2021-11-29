@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Include="Threads.fs" />
+    <Compile Include="ThreadLocking.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

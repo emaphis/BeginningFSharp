@@ -1,4 +1,7 @@
 ﻿
 
-// For more information see https://aka.ms/fsharp-console-apps
+open Threads
+open ThreadLocking
+
+do main()
 printfn "Hello from F#"
