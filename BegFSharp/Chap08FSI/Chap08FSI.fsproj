@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="fruits.xml" />
     <None Include="test.csv" />
     <Compile Include="SystemIO.fs" />
+    <Compile Include="SystemXML.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
 
 </Project>
