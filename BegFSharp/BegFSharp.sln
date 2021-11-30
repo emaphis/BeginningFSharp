@@ -27,6 +27,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Chap08ConsoleApp6", "Chap08
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chap09", "Chap09\Chap09.fsproj", "{5E4BA09F-74AD-4C16-BA34-0DF0FB633D6E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chap09Reactive", "Chap09Reactive\Chap09Reactive.fsproj", "{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,18 @@ Global
 		{5E4BA09F-74AD-4C16-BA34-0DF0FB633D6E}.Release|x64.Build.0 = Release|Any CPU
 		{5E4BA09F-74AD-4C16-BA34-0DF0FB633D6E}.Release|x86.ActiveCfg = Release|Any CPU
 		{5E4BA09F-74AD-4C16-BA34-0DF0FB633D6E}.Release|x86.Build.0 = Release|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Debug|x64.Build.0 = Debug|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Release|x64.Build.0 = Release|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C227DDE-9C22-42FA-B9B9-61B2A62EE13D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
