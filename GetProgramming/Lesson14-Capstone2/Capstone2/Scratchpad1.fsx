@@ -114,7 +114,7 @@ printfn "Should be 80M: %A" newAccount.Balance
 
 // test out console auditor
 consoleAudit account "Testing console audit"
-fileSystemAudit account "Testing file system audit"
+//fileSystemAudit account "Testing file system audit"
 
 
 
