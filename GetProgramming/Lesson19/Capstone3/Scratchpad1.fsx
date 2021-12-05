@@ -27,7 +27,7 @@ let isStopCommand commamd = commamd = 'x'
 
 
 /// Takes in a command and converts it to a tuple of the command and also an amount
-let getAmount (command:char) =
+let getAmount command =
     if command = 'd' then command, 50M
     elif command = 'w' then command, 25M
     else command, 0M
@@ -35,7 +35,7 @@ let getAmount (command:char) =
 ;;
 /// Takes in an account and a (command, amount) tuple. It should then apply
 /// the appropriate action on the account and return the new account back out again
-let processCommand account (command:char, amount) =
+let processCommand account (command, amount) =
     if   command = 'd' then deposit amount account
     elif command = 'w' then withdraw amount account
     else account
@@ -54,4 +54,5 @@ let account =
     |> Seq.takeWhile (not << isStopCommand)
     |> Seq.map getAmount
     |> Seq.fold processCommand openingAccount
+
 
