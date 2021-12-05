@@ -35,7 +35,6 @@ let getAmount() =
 let withdrawC = withdraw |> auditAs "withdraw" Capstone2.Auditing.consoleAudit
 let depositC = deposit |> auditAs "deposit" Capstone2.Auditing.consoleAudit
 
-s
 /// Main application entry point
 [<EntryPoint>]
 let main argv =
