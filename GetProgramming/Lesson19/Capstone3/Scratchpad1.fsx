@@ -28,9 +28,9 @@ let isStopCommand commamd = commamd = 'x'
 
 /// Takes in a command and converts it to a tuple of the command and also an amount
 let getAmount command =
-    if command = 'd' then command, 50M
-    elif command = 'w' then command, 25M
-    else command, 0M
+    Console.WriteLine()
+    Console.Write "Enter Amount: "
+    command, Console.ReadLine() |> Decimal.Parse
 
 ;;
 /// Takes in an account and a (command, amount) tuple. It should then apply
@@ -47,9 +47,17 @@ let openingAccount =
     { Owner = { Name = "Isaac" }; Balance = 0M; AccountId = Guid.Empty }
 
 
+// Listing 19.3 Creating a sequence of user-generated inputs  - pg. 224
+let consoleCommands = seq {
+     while true do
+         Console.Write "(d)eposit, (w)ithdraw or e(x)it: "
+         yield Console.ReadKey().KeyChar
+         Console.WriteLine() }
+
 let account =
-    let commands = [ 'd'; 'w'; 'z'; 'f'; 'd'; 'x'; 'w' ]
-    commands
+    //let commands = [ 'd'; 'w'; 'z'; 'f'; 'd'; 'x'; 'w' ]
+    //commands
+    consoleCommands
     |> Seq.filter isValidCommand
     |> Seq.takeWhile (not << isStopCommand)
     |> Seq.map getAmount

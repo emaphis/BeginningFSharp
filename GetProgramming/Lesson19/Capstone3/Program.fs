@@ -8,6 +8,10 @@ open Capstone3.Operations
 
 
 
+let withdrawWithAudit = auditAs "withdraw" Auditing.composedLogger withdraw
+let depositWithAudit = auditAs "deposit" Auditing.composedLogger deposit
+
+
 /// Checks whether the command is one of (d)eposit, (w)ithdraw, or e(x)it
 let isValidCommand command =
     command = 'd' || command = 'w' || command = 'x'
@@ -19,17 +23,27 @@ let isStopCommand commamd = commamd = 'x'
 
 /// Takes in a command and converts it to a tuple of the command and also an amount
 let getAmount command =
-    if command = 'd' then command, 50M
-    elif command = 'w' then command, 25M
-    else command, 0M
+    Console.WriteLine()
+    Console.Write "Enter Amount: "
+    command, Console.ReadLine() |> Decimal.Parse
+
 
 /// Takes in an account and a (command, amount) tuple. It should then apply
 /// the appropriate action on the account and return the new account back out again
 let processCommand account (command, amount) =
-    if   command = 'd' then deposit amount account
-    elif command = 'w' then withdraw amount account
-    else account
+    let account =
+        if   command = 'd' then depositWithAudit amount account
+        elif command = 'w' then withdrawWithAudit  amount account
+        else account
+    printfn "Current balance is $%M" account.Balance
+    account
 
+
+let commands = seq {
+    while true do
+        Console.Write "(d)eposit, (w)ithdraw or e(x)it: "
+        yield Console.ReadKey().KeyChar
+        Console.WriteLine() }
 
 
 
@@ -44,17 +58,17 @@ let main _ =
 
     let openingAccount = { Owner = { Name = name }; Balance = 0M; AccountId = Guid.Empty } 
 
+    printfn "Current balance is $%M" openingAccount.Balance
+
     let closingAccount =
-        // Fill in the main loop here...
-        let commands = [ 'd'; 'w'; 'z'; 'f'; 'd'; 'x'; 'w' ]
         commands
         |> Seq.filter isValidCommand
         |> Seq.takeWhile (not << isStopCommand)
         |> Seq.map getAmount
         |> Seq.fold processCommand openingAccount
-        //openingAccount
 
-    Console.Clear()
+ 
+    printfn ""
     printfn "Closing Balance:\r\n %A" closingAccount
     Console.ReadKey() |> ignore
 
