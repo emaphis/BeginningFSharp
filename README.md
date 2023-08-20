@@ -9,3 +9,9 @@ Another attempt at learning F#
 by Ian Russell
 
 /EssentialFSharp
+
+## Tour of FSharp
+
+from: <https://learn.microsoft.com/en-us/dotnet/fsharp/tour>
+
+./tour/TourFSharp
