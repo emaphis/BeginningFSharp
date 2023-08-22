@@ -6,8 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Immutability.fs" />
     <Compile Include="BasicFunctions.fs" />
+    <Compile Include="Immutability.fs" />
+    <Compile Include="IntegersAndNumbers.fs" />
+    <Compile Include="Booleans.fs" />
+    <Compile Include="StringManipulation.fs" />
+    <Compile Include="Tuples.fs" />
+    <Compile Include="PipelinesAndComposition.fs" />
+    <Compile Include="Lists.fs" />
+    <Compile Include="Arrays.fs" />
+    <Compile Include="Sequences.fs" />
+    <Compile Include="RecursiveFunctions.fs" />
+    <Compile Include="RecordTypes.fs" />
+    <Compile Include="DiscriminatedUntions.fs" />
+    <Compile Include="SingleCaseDiscriminatedUnions.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
